@@ -15,3 +15,10 @@ function backToHome() {
     document.getElementById("forForm").style.display = "none";
     console.log("Home");
 }
+//clear the fields
+function clearFields() {
+    document.getElementById("fullname").value=""
+    document.getElementById("phone").value=""
+    document.getElementById("phone").value=""
+    document.getElementById("description").value=""
+}
